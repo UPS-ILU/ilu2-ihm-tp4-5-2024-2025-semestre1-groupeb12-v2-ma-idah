@@ -23,21 +23,21 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="dateTimePanel" max="32767" attributes="0"/>
-                  <Component id="nbPersonsPanel" alignment="0" max="32767" attributes="0"/>
-                  <Component id="pickTablePanel" alignment="0" max="32767" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="207" max="32767" attributes="0"/>
+              <EmptySpace pref="106" max="32767" attributes="0"/>
               <Component id="validerButton" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
               <Component id="annulerButton" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="280" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="nbPersonsPanel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="dateTimePanel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="pickTablePanel" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -79,7 +79,7 @@
                       <Component id="Date" alignment="0" min="-2" max="-2" attributes="0"/>
                       <Component id="datePicker" alignment="0" min="-2" pref="157" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="32767" attributes="0"/>
+                  <EmptySpace pref="168" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="heure" min="-2" max="-2" attributes="0"/>
                       <Component id="timePicker" min="-2" pref="136" max="-2" attributes="0"/>
